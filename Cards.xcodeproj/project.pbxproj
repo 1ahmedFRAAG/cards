@@ -14,6 +14,7 @@
 		E22BACCF2E149E570032B416 /* CardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BACCE2E149E570032B416 /* CardsTests.swift */; };
 		E22BACD92E149E570032B416 /* CardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BACD82E149E570032B416 /* CardsUITests.swift */; };
 		E22BACDB2E149E570032B416 /* CardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22BACDA2E149E570032B416 /* CardsUITestsLaunchTests.swift */; };
+		E2E0ABF02E14AB210072DC2D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0ABEF2E14AB210072DC2D /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E22BACD42E149E570032B416 /* CardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22BACD82E149E570032B416 /* CardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsUITests.swift; sourceTree = "<group>"; };
 		E22BACDA2E149E570032B416 /* CardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2E0ABEF2E14AB210072DC2D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		E22BACBC2E149E520032B416 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				E2E0ABEE2E14AB0F0072DC2D /* Model */,
 				E22BACBD2E149E520032B416 /* CardsApp.swift */,
 				E22BACBF2E149E520032B416 /* ContentView.swift */,
 				E22BACC12E149E560032B416 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				E22BACDA2E149E570032B416 /* CardsUITestsLaunchTests.swift */,
 			);
 			path = CardsUITests;
+			sourceTree = "<group>";
+		};
+		E2E0ABEE2E14AB0F0072DC2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2E0ABEF2E14AB210072DC2D /* Card.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E22BACC02E149E520032B416 /* ContentView.swift in Sources */,
+				E2E0ABF02E14AB210072DC2D /* Card.swift in Sources */,
 				E22BACBE2E149E520032B416 /* CardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
